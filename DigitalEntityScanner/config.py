@@ -1,0 +1,21 @@
+"""Project-wide settings for Digital Entity Scanner."""
+
+# Detection
+MAX_FACES = 10
+MIN_DETECTION_CONFIDENCE = 0.5
+MIN_TRACKING_CONFIDENCE = 0.5
+REFINE_LANDMARKS = True
+
+# Webcam
+CAMERA_INDEX = 0
+ENABLE_TRACKING = True
+TRACKING_IOU_THRESHOLD = 0.25
+TRACKING_MAX_MISSING_FRAMES = 20
+
+# Display
+WINDOW_NAME = "Digital Entity Scanner"
+OUTPUT_DIR = "output/results"
+
+# Visual
+HUD_FONT_SCALE = 0.55
+SCAN_LINE_SPEED = 6
