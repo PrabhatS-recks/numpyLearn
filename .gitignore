@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore Python bytecode cache
+__pycache__/
+*.pyc
+
+# --- UNRELATED PYTHON SCRIPTS & FILES ---
+app.py
+atm.py
+generate_data.py
+generate_pdf.py
+list.py
+marks_analyzer.py
+movies.py
+obj.py
+oops.py
+pand.py
+config.py
+generate_assets.py
+main.py
+
+# --- UNRELATED DATA & DOCUMENTS ---
+movies.csv
+Machine_Learning_Wildfire_Comparative_Review.pdf
